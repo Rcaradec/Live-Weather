@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meteo</title>
+  </head>
+  <header class="header">
+    <h1 id="weather__title">
+      Méteo <span id="weather__span_title">LIVE</span>
+    </h1>
+    <h3 id="weather__subtitle">Temps actuel</h3>
+  </header>
+
+  <body>
+    <div class="card_container">
+      <div class="card">
+        <!-- icone -->
+        <div class="icon">
+          <img src="./images/icons8-sun.gif" id="icon" alt="" />
+        </div>
+
+        <div class="temp">
+          <span id="temp">30</span>
+          <span id="temp_unit">°C</span>
+        </div>
+
+        <div class="location">
+          <span id="location_span">Montgeroult</span>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="weather.js"></script>
+</html>

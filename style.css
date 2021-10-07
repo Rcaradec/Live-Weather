@@ -1,0 +1,69 @@
+body {
+  background-color: #55a8a8;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+/* GROS TITRE */
+
+.header {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#weather__title {
+  color: #ffeaee;
+}
+
+#weather__span_title {
+  color: #0075f2;
+}
+
+#weather__subtitle {
+  padding-top: 1em;
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffeaee;
+}
+
+/* CARTE METEO */
+
+.card_container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding-top: 3em;
+  border: 2px solid black;
+  background-color: #096b72;
+  height: 400px;
+  padding: 1em;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(255, 255, 255, 0.8) 0px -12px 30px,
+    rgba(255, 255, 255, 0.8) 0px 4px 6px, rgba(255, 255, 255, 0.8) 0px 12px 13px,
+    rgba(255, 255, 255, 0.8) 0px -3px 5px;
+}
+
+#temp {
+  font-size: 4em;
+  color: #ffeaee;
+}
+#temp_unit {
+  font-size: 3em;
+  color: #ffeaee;
+}
+
+#location_span {
+  font-size: 3em;
+  color: #ccafa1;
+  font-weight: bold;
+}
